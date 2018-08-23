@@ -4,7 +4,7 @@ class CoordinatesButton extends React.Component {
 
   render(){
     return (
-      <button onClick={onReceiveCoordinates([this.clientX, this.clientY])} />
+      // <button onClick={onReceiveCoordinates([this.clientX, this.clientY])} />
     )
   }
 }
